@@ -1,0 +1,5 @@
+const VERIFICATION_CODE='123456'
+
+module.exports={
+    VERIFICATION_CODE
+}
