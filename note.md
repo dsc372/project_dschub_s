@@ -11,3 +11,5 @@ bug3:rs256密钥长度要2048
 3、算是难点吗？verifyPermission的封装
 
 4、头像的显示，写一个读取图片的url，放在userInfo中返回
+
+5、文件信息要从ctx.req中获取，而不是ctx.request。前者是nodejs中http模块的对象，后者是经过koa封装的
